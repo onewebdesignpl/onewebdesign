@@ -1,0 +1,49 @@
+div.subheader {
+    position: relative;
+    height: 20vw;
+    min-height: 200px;
+    background: linear-gradient(242.88deg, rgba(255, 187, 61, 0.5) 1.43%, rgba(255, 255, 255, 0) 88.76%), #FFBB3D;
+}
+header::after {
+    display:none;
+}
+
+div.subheader > div.subheader-title {
+    position: absolute;
+    bottom: 3vw;
+    left: 3vw;
+}
+
+div.subheader > div.subheader-title > h1 {
+    font-weight: 900;
+}
+
+div.subheader > div.subheader-title > h2 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    div.subheader {
+        min-height: 300px;
+    }
+    div.subheader > div.subheader-title {
+        position: absolute;
+        bottom: 2vw;
+        left: 3vw;
+    }
+    div.subheader > div.subheader-title > h2 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1440px) {
+    div.subheader {
+        min-height: 300px;
+    }
+    div.subheader > div.subheader-title > h1 {
+        font-weight: 900;
+        font-size: 36px;
+    }
+    
+}

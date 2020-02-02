@@ -1,0 +1,101 @@
+#gray-section {
+    background: #EFEFEFEF;
+    flex-direction: column;
+}
+
+main.offer-page > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    padding: 3vw 0;
+}
+
+main.offer-page > section > div.offer-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+}
+main.offer-page > section > div.offer-box > img{
+    box-sizing: border-box;
+    max-width: 90vw;
+}
+.flex-image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* TYPOGRAPHY */
+main.offer-page > section > div.offer-box > h2 {
+    padding: 0 0 20px 0;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 36px;
+}
+main.offer-page > section > div.offer-box > h3 {
+    padding: 0 0 20px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+main.offer-page > section > div.offer-box > p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+}
+main.offer-page > section > div.offer-box > p > i {
+    padding: 5px;
+    font-size: 16px;
+    color: #FFBB3D;
+}
+main.offer-page > section > div.offer-box > a {
+    text-decoration: none;
+}
+main.offer-page > section > div.offer-box > a > button {
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    background-color: #59A5FF;
+    line-height: 40px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.paragraph-12{
+    font-size: 12px !important;
+    line-height: 120% !important;
+}
+
+
+
+@media (min-width: 1024px) {
+    main.offer-page > section {
+        display: flex;
+        flex-direction: row;
+        min-height: 500px;
+        max-height: 500px;
+        padding: 0;
+    }
+    main.offer-page > section > div.offer-box > h2{
+        width: 420px;
+    }
+    main.offer-page > section > div.offer-box > h3{
+        width: 520px;
+    }
+    main.offer-page > section > div.offer-box > p {
+        width: 420px;
+    }
+    #gray-section {
+        background: #EFEFEFEF;
+        flex-direction: row-reverse;
+    }
+}

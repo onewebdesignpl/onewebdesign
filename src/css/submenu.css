@@ -1,0 +1,30 @@
+div.submenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    background: #59A5FF;
+}
+
+div.submenu > a {
+    padding: 0 3%;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 30px;
+    transition: all .2s ease;
+}
+div.submenu > a:hover {
+    color: #FFBB3D;
+}
+@media (min-width: 640px) {
+    div.submenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background: #59A5FF;
+    }
+}

@@ -1,0 +1,44 @@
+section.offer {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw 0;
+}
+section.offer > div.offer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vw;
+}
+section.offer > div.offer-box > p {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
+section.offer > div.offer-box > div.orange-bar {
+    background-color: #FFBB3D;
+    width: 85%;
+    height: 4px;
+    margin: 20px 0;
+}
+section.offer > div.offer-box > a > button {
+    margin: 10px 0;
+    width: 180px;
+    background-color: #59A5FF;
+    line-height: 40px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    section.offer {
+        flex-direction: row;
+        padding: 6vw 0;
+        max-width: 1240px;
+        margin: 0 auto;
+    }
+}
